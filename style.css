@@ -1,0 +1,161 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Header */
+
+header{
+    background-image: url(img/menu/bg-menu.png);
+    background-size: cover;
+    height: 100%;
+}
+
+.carousel{
+    padding-bottom: 20px;
+}
+
+.menu{
+    padding-top: 50px;
+}
+
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 120px;
+    color: #c4cdd1;
+}
+
+.logo a p{
+    margin-top: -0.1em;
+    
+}
+
+.logo:hover{
+    color: #c4cdd1;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 30px;
+
+    font-weight: 400;  
+}
+
+.carousel{
+    margin: 50px 0 0 0;
+
+}
+
+h1{
+    font-size: 64px;
+    color: white;
+}
+
+.carousel p{
+    font-size: 44px;
+    color: white;
+}
+
+.carousel-button{
+    border: 1px solid none;
+    background-color: #2b7551;
+
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 22px;
+    color: white;
+
+    box-shadow: 0 0 5px #000;
+}
+
+.carousel-button:hover{
+    color: white;
+}
+
+/* Section */
+
+section{
+    margin: 150px 0 150px 0 ;
+}
+
+.directions img{
+    padding: 0 20px;
+}
+
+.directions h3{
+    font-size: 35px;
+    color: #7b7a7a;
+    padding: 0;
+}
+
+.directions li h3:focus{
+    color: #000;
+}
+
+.directions p{
+    color: #818181;
+    font-size: 14px;
+    margin: 36px 0;
+    text-align: justify;
+}
+
+.tablet{
+    
+    margin: 100px 0;
+}
+
+.choose{
+    border-top: 1px solid #dedede;
+    padding-top: 40px;
+}
+
+.choose h3{
+    padding-top: 30px;
+}
+
+
+
+
+.left, .right{
+    border: 1px solid none;
+    border-radius: 10px;
+    color: white;
+    font-size: 28px;
+    padding: 15px 5px 15px 25px;
+}
+
+.left{
+    background-color: #e67624;
+}
+
+.right{
+    background-color: #01d4f3;
+}
+
+
+.data.row{
+    margin: 0;
+}
+
+footer{
+    background-color: #292d25;
+    padding-top: 30px;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+}
+
+
+
+
